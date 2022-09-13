@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include hana_amt_customization *.css
+recursive-include hana_amt_customization *.csv
+recursive-include hana_amt_customization *.html
+recursive-include hana_amt_customization *.ico
+recursive-include hana_amt_customization *.js
+recursive-include hana_amt_customization *.json
+recursive-include hana_amt_customization *.md
+recursive-include hana_amt_customization *.png
+recursive-include hana_amt_customization *.py
+recursive-include hana_amt_customization *.svg
+recursive-include hana_amt_customization *.txt
+recursive-exclude hana_amt_customization *.pyc
