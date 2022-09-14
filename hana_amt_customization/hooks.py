@@ -186,5 +186,5 @@ app_license = "MIT"
 #	"hana_amt_customization.auth.validate"
 # ]
 fixtures=[
-    "Job Title", "Designation"
+    "Job Title", "Designation","Role Profile","Module Profile"
 ]
