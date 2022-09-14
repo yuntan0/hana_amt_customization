@@ -185,3 +185,6 @@ app_license = "MIT"
 # auth_hooks = [
 #	"hana_amt_customization.auth.validate"
 # ]
+fixtures=[
+    "Job Title", "Designation"
+]

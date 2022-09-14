@@ -1,0 +1,191 @@
+[
+ {
+  "description": null,
+  "designation_name": "CEO",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2022-09-11 22:20:05.327122",
+  "name": "CEO",
+  "skills": []
+ },
+ {
+  "description": null,
+  "designation_name": "Manager",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2022-09-11 22:20:05.336114",
+  "name": "Manager",
+  "skills": []
+ },
+ {
+  "description": null,
+  "designation_name": "Analyst",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2022-09-11 22:20:05.344063",
+  "name": "Analyst",
+  "skills": []
+ },
+ {
+  "description": null,
+  "designation_name": "Engineer",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2022-09-11 22:20:05.347748",
+  "name": "Engineer",
+  "skills": []
+ },
+ {
+  "description": null,
+  "designation_name": "Accountant",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2022-09-11 22:20:05.351327",
+  "name": "Accountant",
+  "skills": []
+ },
+ {
+  "description": null,
+  "designation_name": "Secretary",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2022-09-11 22:20:05.354907",
+  "name": "Secretary",
+  "skills": []
+ },
+ {
+  "description": null,
+  "designation_name": "Associate",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2022-09-11 22:20:05.358459",
+  "name": "Associate",
+  "skills": []
+ },
+ {
+  "description": null,
+  "designation_name": "Administrative Officer",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2022-09-11 22:20:05.362002",
+  "name": "Administrative Officer",
+  "skills": []
+ },
+ {
+  "description": null,
+  "designation_name": "Business Development Manager",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2022-09-11 22:20:05.365600",
+  "name": "Business Development Manager",
+  "skills": []
+ },
+ {
+  "description": null,
+  "designation_name": "HR Manager",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2022-09-11 22:20:05.369434",
+  "name": "HR Manager",
+  "skills": []
+ },
+ {
+  "description": null,
+  "designation_name": "Project Manager",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2022-09-11 22:20:05.372982",
+  "name": "Project Manager",
+  "skills": []
+ },
+ {
+  "description": null,
+  "designation_name": "Head of Marketing and Sales",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2022-09-11 22:20:05.380903",
+  "name": "Head of Marketing and Sales",
+  "skills": []
+ },
+ {
+  "description": null,
+  "designation_name": "Software Developer",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2022-09-11 22:20:05.390877",
+  "name": "Software Developer",
+  "skills": []
+ },
+ {
+  "description": null,
+  "designation_name": "Designer",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2022-09-11 22:20:05.401509",
+  "name": "Designer",
+  "skills": []
+ },
+ {
+  "description": null,
+  "designation_name": "Researcher",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2022-09-11 22:20:05.412300",
+  "name": "Researcher",
+  "skills": []
+ },
+ {
+  "description": null,
+  "designation_name": "\ud300\uc6d0",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2022-09-13 20:30:34.621188",
+  "name": "\ud300\uc6d0",
+  "skills": []
+ },
+ {
+  "description": null,
+  "designation_name": "\ud300\uc7a5",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2022-09-13 20:30:38.747164",
+  "name": "\ud300\uc7a5",
+  "skills": []
+ },
+ {
+  "description": null,
+  "designation_name": "\uc5f0\uad6c\uc6d0",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2022-09-13 20:30:46.455154",
+  "name": "\uc5f0\uad6c\uc6d0",
+  "skills": []
+ },
+ {
+  "description": null,
+  "designation_name": "\ucd1d\uad04",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2022-09-13 20:31:07.505421",
+  "name": "\ucd1d\uad04",
+  "skills": []
+ },
+ {
+  "description": null,
+  "designation_name": "\uc784\uc6d0",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2022-09-13 20:34:41.528338",
+  "name": "\uc784\uc6d0",
+  "skills": []
+ },
+ {
+  "description": null,
+  "designation_name": "\uc18c\uc7a5",
+  "docstatus": 0,
+  "doctype": "Designation",
+  "modified": "2022-09-13 20:34:46.301862",
+  "name": "\uc18c\uc7a5",
+  "skills": []
+ }
+]
