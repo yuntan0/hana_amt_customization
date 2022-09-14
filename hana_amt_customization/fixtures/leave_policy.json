@@ -1,0 +1,350 @@
+[
+ {
+  "amended_from": null,
+  "docstatus": 1,
+  "doctype": "Leave Policy",
+  "leave_policy_details": [
+   {
+    "annual_allocation": 15.0,
+    "leave_type": "\uac1c\uc778\uc5f0\ucc28",
+    "parent": "HR-LPOL-2022-00001",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   },
+   {
+    "annual_allocation": 3.0,
+    "leave_type": "\uacbd\uc870\uc0ac\ud734\uac00",
+    "parent": "HR-LPOL-2022-00001",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   },
+   {
+    "annual_allocation": 10.0,
+    "leave_type": "\ucd9c\uc0b0\ud734\uac00(\ubc30\uc6b0\uc790)",
+    "parent": "HR-LPOL-2022-00001",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   }
+  ],
+  "modified": "2022-09-13 21:42:28.365220",
+  "name": "HR-LPOL-2022-00001",
+  "title": "1-2\ub144\ucc28"
+ },
+ {
+  "amended_from": null,
+  "docstatus": 1,
+  "doctype": "Leave Policy",
+  "leave_policy_details": [
+   {
+    "annual_allocation": 16.0,
+    "leave_type": "\uac1c\uc778\uc5f0\ucc28",
+    "parent": "HR-LPOL-2022-00002",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   },
+   {
+    "annual_allocation": 3.0,
+    "leave_type": "\uacbd\uc870\uc0ac\ud734\uac00",
+    "parent": "HR-LPOL-2022-00002",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   },
+   {
+    "annual_allocation": 10.0,
+    "leave_type": "\ucd9c\uc0b0\ud734\uac00(\ubc30\uc6b0\uc790)",
+    "parent": "HR-LPOL-2022-00002",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   }
+  ],
+  "modified": "2022-09-13 21:42:28.290788",
+  "name": "HR-LPOL-2022-00002",
+  "title": "3-4\ub144\ucc28"
+ },
+ {
+  "amended_from": null,
+  "docstatus": 1,
+  "doctype": "Leave Policy",
+  "leave_policy_details": [
+   {
+    "annual_allocation": 17.0,
+    "leave_type": "\uac1c\uc778\uc5f0\ucc28",
+    "parent": "HR-LPOL-2022-00003",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   },
+   {
+    "annual_allocation": 3.0,
+    "leave_type": "\uacbd\uc870\uc0ac\ud734\uac00",
+    "parent": "HR-LPOL-2022-00003",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   },
+   {
+    "annual_allocation": 10.0,
+    "leave_type": "\ucd9c\uc0b0\ud734\uac00(\ubc30\uc6b0\uc790)",
+    "parent": "HR-LPOL-2022-00003",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   }
+  ],
+  "modified": "2022-09-13 21:42:28.233972",
+  "name": "HR-LPOL-2022-00003",
+  "title": "4-5\ub144\ucc28"
+ },
+ {
+  "amended_from": null,
+  "docstatus": 1,
+  "doctype": "Leave Policy",
+  "leave_policy_details": [
+   {
+    "annual_allocation": 18.0,
+    "leave_type": "\uac1c\uc778\uc5f0\ucc28",
+    "parent": "HR-LPOL-2022-00004",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   },
+   {
+    "annual_allocation": 3.0,
+    "leave_type": "\uacbd\uc870\uc0ac\ud734\uac00",
+    "parent": "HR-LPOL-2022-00004",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   },
+   {
+    "annual_allocation": 10.0,
+    "leave_type": "\ucd9c\uc0b0\ud734\uac00(\ubc30\uc6b0\uc790)",
+    "parent": "HR-LPOL-2022-00004",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   }
+  ],
+  "modified": "2022-09-13 21:42:28.182020",
+  "name": "HR-LPOL-2022-00004",
+  "title": "6-7\ub144\ucc28"
+ },
+ {
+  "amended_from": null,
+  "docstatus": 1,
+  "doctype": "Leave Policy",
+  "leave_policy_details": [
+   {
+    "annual_allocation": 19.0,
+    "leave_type": "\uac1c\uc778\uc5f0\ucc28",
+    "parent": "HR-LPOL-2022-00005",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   },
+   {
+    "annual_allocation": 3.0,
+    "leave_type": "\uacbd\uc870\uc0ac\ud734\uac00",
+    "parent": "HR-LPOL-2022-00005",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   },
+   {
+    "annual_allocation": 10.0,
+    "leave_type": "\ucd9c\uc0b0\ud734\uac00(\ubc30\uc6b0\uc790)",
+    "parent": "HR-LPOL-2022-00005",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   }
+  ],
+  "modified": "2022-09-13 21:42:28.103026",
+  "name": "HR-LPOL-2022-00005",
+  "title": "8-9\ub144\ucc28"
+ },
+ {
+  "amended_from": null,
+  "docstatus": 1,
+  "doctype": "Leave Policy",
+  "leave_policy_details": [
+   {
+    "annual_allocation": 20.0,
+    "leave_type": "\uac1c\uc778\uc5f0\ucc28",
+    "parent": "HR-LPOL-2022-00006",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   },
+   {
+    "annual_allocation": 10.0,
+    "leave_type": "\ucd9c\uc0b0\ud734\uac00(\ubc30\uc6b0\uc790)",
+    "parent": "HR-LPOL-2022-00006",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   },
+   {
+    "annual_allocation": 3.0,
+    "leave_type": "\uacbd\uc870\uc0ac\ud734\uac00",
+    "parent": "HR-LPOL-2022-00006",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   }
+  ],
+  "modified": "2022-09-13 21:42:28.030353",
+  "name": "HR-LPOL-2022-00006",
+  "title": "10-11\ub144\ucc28"
+ },
+ {
+  "amended_from": null,
+  "docstatus": 1,
+  "doctype": "Leave Policy",
+  "leave_policy_details": [
+   {
+    "annual_allocation": 21.0,
+    "leave_type": "\uac1c\uc778\uc5f0\ucc28",
+    "parent": "HR-LPOL-2022-00007",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   },
+   {
+    "annual_allocation": 3.0,
+    "leave_type": "\uacbd\uc870\uc0ac\ud734\uac00",
+    "parent": "HR-LPOL-2022-00007",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   },
+   {
+    "annual_allocation": 10.0,
+    "leave_type": "\ucd9c\uc0b0\ud734\uac00(\ubc30\uc6b0\uc790)",
+    "parent": "HR-LPOL-2022-00007",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   }
+  ],
+  "modified": "2022-09-13 21:42:27.975255",
+  "name": "HR-LPOL-2022-00007",
+  "title": "12-13\ub144\ucc28"
+ },
+ {
+  "amended_from": null,
+  "docstatus": 1,
+  "doctype": "Leave Policy",
+  "leave_policy_details": [
+   {
+    "annual_allocation": 22.0,
+    "leave_type": "\uac1c\uc778\uc5f0\ucc28",
+    "parent": "HR-LPOL-2022-00008",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   },
+   {
+    "annual_allocation": 3.0,
+    "leave_type": "\uacbd\uc870\uc0ac\ud734\uac00",
+    "parent": "HR-LPOL-2022-00008",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   },
+   {
+    "annual_allocation": 10.0,
+    "leave_type": "\ucd9c\uc0b0\ud734\uac00(\ubc30\uc6b0\uc790)",
+    "parent": "HR-LPOL-2022-00008",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   }
+  ],
+  "modified": "2022-09-13 21:42:27.893776",
+  "name": "HR-LPOL-2022-00008",
+  "title": "14-15\ub144\ucc28"
+ },
+ {
+  "amended_from": null,
+  "docstatus": 1,
+  "doctype": "Leave Policy",
+  "leave_policy_details": [
+   {
+    "annual_allocation": 23.0,
+    "leave_type": "\uac1c\uc778\uc5f0\ucc28",
+    "parent": "HR-LPOL-2022-00009",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   },
+   {
+    "annual_allocation": 3.0,
+    "leave_type": "\uacbd\uc870\uc0ac\ud734\uac00",
+    "parent": "HR-LPOL-2022-00009",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   },
+   {
+    "annual_allocation": 10.0,
+    "leave_type": "\ucd9c\uc0b0\ud734\uac00(\ubc30\uc6b0\uc790)",
+    "parent": "HR-LPOL-2022-00009",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   }
+  ],
+  "modified": "2022-09-13 21:42:27.821115",
+  "name": "HR-LPOL-2022-00009",
+  "title": "16-17\ub144\ucc28"
+ },
+ {
+  "amended_from": null,
+  "docstatus": 1,
+  "doctype": "Leave Policy",
+  "leave_policy_details": [
+   {
+    "annual_allocation": 24.0,
+    "leave_type": "\uac1c\uc778\uc5f0\ucc28",
+    "parent": "HR-LPOL-2022-00010",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   },
+   {
+    "annual_allocation": 3.0,
+    "leave_type": "\uacbd\uc870\uc0ac\ud734\uac00",
+    "parent": "HR-LPOL-2022-00010",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   },
+   {
+    "annual_allocation": 10.0,
+    "leave_type": "\ucd9c\uc0b0\ud734\uac00(\ubc30\uc6b0\uc790)",
+    "parent": "HR-LPOL-2022-00010",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   }
+  ],
+  "modified": "2022-09-13 21:42:27.744618",
+  "name": "HR-LPOL-2022-00010",
+  "title": "18-19\ub144\ucc28"
+ },
+ {
+  "amended_from": null,
+  "docstatus": 1,
+  "doctype": "Leave Policy",
+  "leave_policy_details": [
+   {
+    "annual_allocation": 25.0,
+    "leave_type": "\uac1c\uc778\uc5f0\ucc28",
+    "parent": "HR-LPOL-2022-00011",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   },
+   {
+    "annual_allocation": 3.0,
+    "leave_type": "\uacbd\uc870\uc0ac\ud734\uac00",
+    "parent": "HR-LPOL-2022-00011",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   },
+   {
+    "annual_allocation": 10.0,
+    "leave_type": "\ucd9c\uc0b0\ud734\uac00(\ubc30\uc6b0\uc790)",
+    "parent": "HR-LPOL-2022-00011",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   },
+   {
+    "annual_allocation": 100.0,
+    "leave_type": "\ubb34\uae09\ud734\uac00",
+    "parent": "HR-LPOL-2022-00011",
+    "parentfield": "leave_policy_details",
+    "parenttype": "Leave Policy"
+   }
+  ],
+  "modified": "2022-09-13 21:42:28.454031",
+  "name": "HR-LPOL-2022-00011",
+  "title": "20-25\ub144\ucc28"
+ }
+]
