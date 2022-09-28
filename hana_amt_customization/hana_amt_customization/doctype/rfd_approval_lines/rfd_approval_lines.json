@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2022-09-28 21:36:12.683790",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee",
+  "emp_name",
+  "approval_type",
+  "approval_date",
+  "job_title",
+  "comments",
+  "user_id",
+  "approved",
+  "approve_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Employee",
+   "options": "Employee",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fetch_from": "employee.employee_name",
+   "fieldname": "emp_name",
+   "fieldtype": "Data",
+   "ignore_user_permissions": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Emp Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "approval_type",
+   "fieldtype": "Select",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Approval Type",
+   "options": "\uc2b9\uc778\n\ud569\uc758\n\uc804\uacb0",
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "approval_date",
+   "fieldtype": "Date",
+   "in_standard_filter": 1,
+   "label": "Approval Date",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "employee.job_title",
+   "fieldname": "job_title",
+   "fieldtype": "Link",
+   "label": "Job Title",
+   "options": "Job Title",
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Long Text",
+   "label": "Comments"
+  },
+  {
+   "fetch_from": "employee.user_id",
+   "fieldname": "user_id",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "User ID",
+   "options": "User"
+  },
+  {
+   "default": "0",
+   "fieldname": "approved",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Approved"
+  },
+  {
+   "fieldname": "approve_status",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Approve Status"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-09-28 21:40:12.796689",
+ "modified_by": "Administrator",
+ "module": "Hana Amt Customization",
+ "name": "RFD Approval Lines",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,189 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "HA-.YYYY.MM.#####",
+ "creation": "2022-09-28 21:27:09.894327",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "approval_line",
+  "section_break_1",
+  "approval_type",
+  "draft_dept",
+  "draft_employee",
+  "draft_user",
+  "user_name",
+  "column_break_7",
+  "archive",
+  "draft_date",
+  "share_grade",
+  "company",
+  "section_break_13",
+  "title",
+  "contents",
+  "approval_count",
+  "file_attachment",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "approval_type",
+   "fieldtype": "Link",
+   "label": "Approval Type",
+   "options": "Approval Type",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "draft_employee.department",
+   "fieldname": "draft_dept",
+   "fieldtype": "Link",
+   "label": "Draft Dept",
+   "options": "Department"
+  },
+  {
+   "fieldname": "draft_employee",
+   "fieldtype": "Link",
+   "label": "Draft Employee",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "draft_employee.user_id",
+   "fieldname": "draft_user",
+   "fieldtype": "Link",
+   "label": "Draft User",
+   "options": "User"
+  },
+  {
+   "fetch_from": "draft_employee.employee_name",
+   "fieldname": "user_name",
+   "fieldtype": "Data",
+   "label": "Draft Name"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "archive",
+   "fieldtype": "Select",
+   "label": "Archive",
+   "options": "1 \ub144\n3 \ub144\n5 \ub144\n\uc601\uad6c\ubcf4\uad00"
+  },
+  {
+   "fetch_from": "draft_employee.company",
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contents",
+   "fieldtype": "Text Editor",
+   "label": "Contents"
+  },
+  {
+   "fieldname": "approval_count",
+   "fieldtype": "Int",
+   "label": "Approval Count"
+  },
+  {
+   "fieldname": "file_attachment",
+   "fieldtype": "Attach",
+   "label": "File Attachment"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Report For Decisions",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "approval_line",
+   "fieldtype": "Table",
+   "label": "Approval Line",
+   "options": "RFD Approval Lines",
+   "reqd": 1
+  },
+  {
+   "fieldname": "draft_date",
+   "fieldtype": "Date",
+   "label": "Draft Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "share_grade",
+   "fieldtype": "Select",
+   "label": "Share Grade",
+   "options": "\uc77c\ubc18\n\ubcf4\uc548"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-09-28 22:02:42.774343",
+ "modified_by": "Administrator",
+ "module": "Hana Amt Customization",
+ "name": "Report For Decisions",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Employee",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Employee Self Service",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
