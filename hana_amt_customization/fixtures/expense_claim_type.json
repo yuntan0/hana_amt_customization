@@ -1,0 +1,92 @@
+[
+ {
+  "accounts": [
+   {
+    "company": "Hana AMT",
+    "default_account": "5215 - Telephone Expenses - HA",
+    "parent": "\ud734\ub300\ud3f0\uc9c0\uc6d0",
+    "parentfield": "accounts",
+    "parenttype": "Expense Claim Type"
+   }
+  ],
+  "deferred_expense_account": 0,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Expense Claim Type",
+  "expense_type": "\ud734\ub300\ud3f0\uc9c0\uc6d0",
+  "modified": "2022-09-24 17:03:45.302260",
+  "name": "\ud734\ub300\ud3f0\uc9c0\uc6d0"
+ },
+ {
+  "accounts": [
+   {
+    "company": "Hana AMT",
+    "default_account": "5201 - Administrative Expenses - HA",
+    "parent": "\uc2dd\ub300",
+    "parentfield": "accounts",
+    "parenttype": "Expense Claim Type"
+   }
+  ],
+  "deferred_expense_account": 0,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Expense Claim Type",
+  "expense_type": "\uc2dd\ub300",
+  "modified": "2022-09-24 17:02:26.265156",
+  "name": "\uc2dd\ub300"
+ },
+ {
+  "accounts": [
+   {
+    "company": "Hana AMT",
+    "default_account": "5201 - Administrative Expenses - HA",
+    "parent": "Medical",
+    "parentfield": "accounts",
+    "parenttype": "Expense Claim Type"
+   }
+  ],
+  "deferred_expense_account": 0,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Expense Claim Type",
+  "expense_type": "Medical",
+  "modified": "2022-09-29 19:48:28.620996",
+  "name": "Medical"
+ },
+ {
+  "accounts": [
+   {
+    "company": "Hana AMT",
+    "default_account": "5201 - Administrative Expenses - HA",
+    "parent": "\uae30\ud0c0\uacbd\ube44",
+    "parentfield": "accounts",
+    "parenttype": "Expense Claim Type"
+   }
+  ],
+  "deferred_expense_account": 0,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Expense Claim Type",
+  "expense_type": "\uae30\ud0c0\uacbd\ube44",
+  "modified": "2022-09-24 17:03:56.577114",
+  "name": "\uae30\ud0c0\uacbd\ube44"
+ },
+ {
+  "accounts": [
+   {
+    "company": "Hana AMT",
+    "default_account": "5216 - Travel Expenses - HA",
+    "parent": "\uc5ec\ud589\uacbd\ube44",
+    "parentfield": "accounts",
+    "parenttype": "Expense Claim Type"
+   }
+  ],
+  "deferred_expense_account": 0,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Expense Claim Type",
+  "expense_type": "\uc5ec\ud589\uacbd\ube44",
+  "modified": "2022-09-24 17:02:57.795260",
+  "name": "\uc5ec\ud589\uacbd\ube44"
+ }
+]

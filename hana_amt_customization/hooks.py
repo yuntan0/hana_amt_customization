@@ -186,7 +186,10 @@ app_license = "MIT"
 #	"hana_amt_customization.auth.validate"
 # ]
 fixtures=[
-    "Job Title", "Designation","Role Profile","Module Profile","Leave Type","Leave Policy","Approval Type","Workflow","Workflow State","Workflow Action Master",
+    "Job Title", "Designation","Role Profile",
+    "Module Profile","Leave Type","Leave Policy",
+    "Approval Type","Workflow","Workflow State",
+    "Workflow Action Master","Translation","Identification Document Type","Expense Claim Type",
      {"dt": "Print Format", "filters": [
         [
             "name", "in", [

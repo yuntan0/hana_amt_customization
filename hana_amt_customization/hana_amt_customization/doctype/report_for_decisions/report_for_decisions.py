@@ -15,11 +15,11 @@ class ReportForDecisions(Document):
 				if approval.user_id == frappe.session.user and approval.approved == 0:
 					approval.approved = 1
 					approval.approve_date = frappe.utils.nowdate()
-					if approval.approve_type == 'Approve':
+					if approval.approval_type == 'Approve':
 						approval.approve_status = 'Approved'
-					elif approval.approve_type == 'Agree':
+					elif approval.approval_type == 'Agree':
 						approval.approve_status = 'Agreed'
-					elif approval.approve_type == 'Confirm':
+					elif approval.approval_type == 'Confirm':
 						approval.approve_status = 'Confirmed'
 					approval.save()
 					print("################################ Updated ##################################")

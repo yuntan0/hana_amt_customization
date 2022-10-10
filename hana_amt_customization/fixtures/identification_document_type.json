@@ -1,0 +1,23 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Identification Document Type",
+  "identification_document_type": "\uc5ec\uad8c",
+  "modified": "2022-09-29 19:42:55.348475",
+  "name": "\uc5ec\uad8c"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Identification Document Type",
+  "identification_document_type": "\uc8fc\ubbfc\ub4f1\ub85d\uc99d",
+  "modified": "2022-09-29 19:43:03.875130",
+  "name": "\uc8fc\ubbfc\ub4f1\ub85d\uc99d"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Identification Document Type",
+  "identification_document_type": "\uc6b4\uc804\uba74\ud5c8\uc99d",
+  "modified": "2022-09-29 19:43:16.709445",
+  "name": "\uc6b4\uc804\uba74\ud5c8\uc99d"
+ }
+]

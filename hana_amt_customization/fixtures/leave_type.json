@@ -1,7 +1,7 @@
 [
  {
   "allow_encashment": 1,
-  "allow_negative": 0,
+  "allow_negative": 1,
   "allow_over_allocation": 0,
   "applicable_after": 0,
   "based_on_date_of_joining": 0,
@@ -23,7 +23,7 @@
   "max_continuous_days_allowed": 25,
   "max_leaves_allowed": 25,
   "maximum_carry_forwarded_leaves": 0.0,
-  "modified": "2022-09-13 21:32:56.034922",
+  "modified": "2022-09-29 17:34:59.174059",
   "name": "\uac1c\uc778\uc5f0\ucc28",
   "rounding": "0.5"
  },

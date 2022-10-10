@@ -62,5 +62,21 @@
   "job_title": "\ub300\ud45c\uc774\uc0ac",
   "modified": "2022-09-13 20:33:06.773068",
   "name": "\ub300\ud45c\uc774\uc0ac"
+ },
+ {
+  "description": "\uc5f0\uad6c\uc18c\uc7a5\n",
+  "docstatus": 0,
+  "doctype": "Job Title",
+  "job_title": "\uc5f0\uad6c\uc18c\uc7a5",
+  "modified": "2022-09-28 23:44:56.705218",
+  "name": "\uc5f0\uad6c\uc18c\uc7a5"
+ },
+ {
+  "description": "\uc5f0\uad6c\uc6d0",
+  "docstatus": 0,
+  "doctype": "Job Title",
+  "job_title": "\uc5f0\uad6c\uc6d0",
+  "modified": "2022-09-28 23:45:21.258284",
+  "name": "\uc5f0\uad6c\uc6d0"
  }
 ]
