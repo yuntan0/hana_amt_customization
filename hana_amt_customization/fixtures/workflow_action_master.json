@@ -2,6 +2,34 @@
  {
   "docstatus": 0,
   "doctype": "Workflow Action Master",
+  "modified": "2022-09-30 07:47:49.961207",
+  "name": "\uc2b9\uc778\uc694\uccad",
+  "workflow_action_name": "\uc2b9\uc778\uc694\uccad"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-09-30 07:48:39.267172",
+  "name": "\uc804\uacb0",
+  "workflow_action_name": "\uc804\uacb0"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-09-30 07:50:14.322677",
+  "name": "\uc2b9\uc778\ucde8\uc18c",
+  "workflow_action_name": "\uc2b9\uc778\ucde8\uc18c"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2022-09-30 07:50:38.622593",
+  "name": "\ud68c\uc218",
+  "workflow_action_name": "\ud68c\uc218"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
   "modified": "2022-09-11 18:40:27.044029",
   "name": "Approve",
   "workflow_action_name": "Approve"

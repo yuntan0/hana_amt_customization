@@ -2,6 +2,51 @@
  {
   "docstatus": 0,
   "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-09-30 07:57:17.353663",
+  "name": "\uae30\uc548",
+  "style": "Danger",
+  "workflow_state_name": "\uae30\uc548"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-09-30 07:44:44.401507",
+  "name": "\uc2b9\uc778\uc694\uccad",
+  "style": "Warning",
+  "workflow_state_name": "\uc2b9\uc778\uc694\uccad"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-09-30 07:44:57.152279",
+  "name": "\ud68c\uc218",
+  "style": "",
+  "workflow_state_name": "\ud68c\uc218"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-09-30 07:45:26.917550",
+  "name": "\uc2b9\uc778\ucde8\uc18c",
+  "style": "Inverse",
+  "workflow_state_name": "\uc2b9\uc778\ucde8\uc18c"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-09-30 07:51:00.560057",
+  "name": "\uc2b9\uc778\uc644\ub8cc",
+  "style": "Success",
+  "workflow_state_name": "\uc2b9\uc778\uc644\ub8cc"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
   "icon": "question-sign",
   "modified": "2022-09-11 18:40:27.010466",
   "name": "Pending",
