@@ -1,0 +1,128 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "BB-.YY.MM.-.#####",
+ "creation": "2022-12-31 17:26:38.219173",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "contents_section",
+  "details",
+  "attached_section",
+  "attached_file1",
+  "attached_file2",
+  "attached_file3",
+  "column_break_8",
+  "attached_file4",
+  "attached_file5"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "attached_file1",
+   "fieldtype": "Attach",
+   "label": "Attached file1"
+  },
+  {
+   "fieldname": "attached_file2",
+   "fieldtype": "Attach",
+   "label": "Attached file2"
+  },
+  {
+   "fieldname": "attached_file3",
+   "fieldtype": "Attach",
+   "label": "Attached file3"
+  },
+  {
+   "fieldname": "attached_file4",
+   "fieldtype": "Attach",
+   "label": "Attached file4"
+  },
+  {
+   "fieldname": "attached_file5",
+   "fieldtype": "Attach",
+   "label": "Attached file5"
+  },
+  {
+   "fieldname": "contents_section",
+   "fieldtype": "Section Break",
+   "label": "Contents"
+  },
+  {
+   "fieldname": "attached_section",
+   "fieldtype": "Section Break",
+   "label": "Attached"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Markdown Editor",
+   "label": "Details",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-12-31 17:33:33.816039",
+ "modified_by": "Administrator",
+ "module": "Hana Amt Customization",
+ "name": "Admin Bulletin Board",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "title",
+ "translated_doctype": 1
+}
