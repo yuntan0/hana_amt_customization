@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{metal}-{pc_unit_cd_n}-{pc_dt}",
+ "creation": "2023-01-05 21:56:11.331227",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "metal",
+  "metal_name",
+  "column_break_3",
+  "pc_stdr",
+  "pc_unit_cd_n",
+  "price_section",
+  "pc_dt",
+  "avrgpc",
+  "diff_pc",
+  "column_break_11",
+  "toppc",
+  "ratesig",
+  "down"
+ ],
+ "fields": [
+  {
+   "fieldname": "metal",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Metal",
+   "options": "Metal Code",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "metal.metal_name",
+   "fieldname": "metal_name",
+   "fieldtype": "Data",
+   "label": "Metal Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pc_stdr",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Price Standard"
+  },
+  {
+   "fieldname": "pc_unit_cd_n",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "price_section",
+   "fieldtype": "Section Break",
+   "label": "Price"
+  },
+  {
+   "fieldname": "pc_dt",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Price Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "avrgpc",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Average Price"
+  },
+  {
+   "fieldname": "diff_pc",
+   "fieldtype": "Data",
+   "label": "Differ Price"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "toppc",
+   "fieldtype": "Float",
+   "label": "Top Price"
+  },
+  {
+   "fieldname": "ratesig",
+   "fieldtype": "Data",
+   "label": "Rate Sign"
+  },
+  {
+   "fieldname": "down",
+   "fieldtype": "Data",
+   "label": "Down"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-01-05 22:07:16.612889",
+ "modified_by": "Administrator",
+ "module": "Hana Amt Customization",
+ "name": "Metal Price",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

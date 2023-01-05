@@ -113,22 +113,57 @@ app_license = "MIT"
 # Scheduled Tasks
 # ---------------
 
+scheduler_events = {
+	"all": [
+		"hana_amt_customization.tasks.all"
+	],
+	"daily": [
+		"hana_amt_customization.tasks.daily"
+	],
+	"hourly": [
+		"hana_amt_customization.tasks.hourly"
+	],
+	"weekly": [
+		"hana_amt_customization.tasks.weekly"
+	],
+	"monthly": [
+		"hana_amt_customization.tasks.monthly"
+	],
+    "cron": {
+		"50 12 * * *": [
+			"hana_amt_customization.tasks.cron"
+		]
+	}
+}
+
 # scheduler_events = {
-#	"all": [
-#		"hana_amt_customization.tasks.all"
-#	],
-#	"daily": [
-#		"hana_amt_customization.tasks.daily"
-#	],
-#	"hourly": [
-#		"hana_amt_customization.tasks.hourly"
-#	],
-#	"weekly": [
-#		"hana_amt_customization.tasks.weekly"
-#	],
-#	"monthly": [
-#		"hana_amt_customization.tasks.monthly"
-#	],
+
+# 	"all": [
+# 		"common_doc.tasks.all"
+# 	],
+# 	"daily": [
+# 		"common_doc.tasks.daily"
+# 	],
+# 	"hourly": [
+# 		"common_doc.tasks.hourly"
+# 	],
+# 	"weekly": [
+# 		"common_doc.tasks.weekly"
+# 	],
+# 	"monthly": [
+# 		"common_doc.tasks.monthly"
+# 	],
+# 	"cron": {
+# 		"50 08 * * *": [
+# 			"common_doc.tasks.cron"
+# 		],
+# 		"50 23 * * *": [
+# 			"common_doc.tasks.cron_us"  #LA local time 08:50 KEB bank 
+# 		],
+# 		"30 20 * * *": [
+# 			"common_doc.tasks.cron_ca"  #canada local time 16:30 bankofcanada 
+# 		]
+# 	}
 # }
 
 # Testing
@@ -186,10 +221,10 @@ app_license = "MIT"
 #	"hana_amt_customization.auth.validate"
 # ]
 fixtures=[
-    "Job Title", "Designation","Role Profile",
-    "Module Profile","Leave Type","Leave Policy",
+    "Job Title", "Designation",
+    "Module Profile",
     "Approval Type","Workflow","Workflow State",
-    "Workflow Action Master","Translation","Identification Document Type","Expense Claim Type",
+    "Workflow Action Master","Translation","Identification Document Type","Expense Claim Type","Metal Code","Metal Market",
      {"dt": "Print Format", "filters": [
         [
             "name", "in", [

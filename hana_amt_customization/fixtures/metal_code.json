@@ -1,0 +1,34 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Metal Code",
+  "metal_code": "CU",
+  "metal_name": "\uad6c\ub9ac",
+  "modified": "2023-01-05 19:15:15.377706",
+  "name": "CU"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Metal Code",
+  "metal_code": "AL",
+  "metal_name": "\uc54c\ub8e8\ubbf8\ub284",
+  "modified": "2023-01-05 19:15:26.270500",
+  "name": "AL"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Metal Code",
+  "metal_code": "MG",
+  "metal_name": "\ub9c8\uadf8\ub124\uc298",
+  "modified": "2023-01-05 19:15:37.907232",
+  "name": "MG"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Metal Code",
+  "metal_code": "NI",
+  "metal_name": "\ub2c8\ucf08",
+  "modified": "2023-01-05 21:10:07.407181",
+  "name": "NI"
+ }
+]

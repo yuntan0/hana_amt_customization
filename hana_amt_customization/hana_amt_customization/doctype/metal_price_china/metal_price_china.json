@@ -1,0 +1,155 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{metal}-{market_name}-{createtime}",
+ "creation": "2023-01-05 19:27:49.569960",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "metal",
+  "metal_name",
+  "column_break_3",
+  "market_name",
+  "metal_market_name",
+  "price_section",
+  "child_name",
+  "createtime",
+  "average",
+  "move",
+  "column_break_11",
+  "move_percent",
+  "classid",
+  "type"
+ ],
+ "fields": [
+  {
+   "fieldname": "metal",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Metal",
+   "options": "Metal Code",
+   "reqd": 1
+  },
+  {
+   "fieldname": "child_name",
+   "fieldtype": "Data",
+   "label": "Child Name"
+  },
+  {
+   "fieldname": "average",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Average"
+  },
+  {
+   "fieldname": "move",
+   "fieldtype": "Data",
+   "label": "move"
+  },
+  {
+   "fieldname": "move_percent",
+   "fieldtype": "Data",
+   "label": "move_percent"
+  },
+  {
+   "fieldname": "classid",
+   "fieldtype": "Data",
+   "label": "Classid"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "Type"
+  },
+  {
+   "fetch_from": "metal.metal_name",
+   "fieldname": "metal_name",
+   "fieldtype": "Data",
+   "label": "Metal Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "market_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Metal Market",
+   "options": "Metal Market",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "price_section",
+   "fieldtype": "Section Break",
+   "label": "Price"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "metal_market.market_name",
+   "fieldname": "metal_market_name",
+   "fieldtype": "Data",
+   "label": "Market Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "createtime",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Createtime",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-01-05 22:17:36.351048",
+ "modified_by": "Administrator",
+ "module": "Hana Amt Customization",
+ "name": "Metal Price China",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts User",
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

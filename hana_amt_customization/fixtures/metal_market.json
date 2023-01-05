@@ -1,0 +1,101 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Metal Market",
+  "market": "\u957f\u6c5f\u6709\u8272",
+  "market_name": "\ucc3d\uc7a5 \ube44\ucca0\uae08\uc18d",
+  "modified": "2023-01-05 19:31:33.665405",
+  "name": "\u957f\u6c5f\u6709\u8272",
+  "remark": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Metal Market",
+  "market": "\u5357\u6d77\u6709\u8272",
+  "market_name": "\ub0a8\ud574 \ube44\ucca0 \uae08\uc18d",
+  "modified": "2023-01-05 19:31:55.936997",
+  "name": "\u5357\u6d77\u6709\u8272",
+  "remark": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Metal Market",
+  "market": "\u4e0a\u6d77\u73b0\u8d27",
+  "market_name": "\uc0c1\ud558\uc774 \uc9c0\uc810",
+  "modified": "2023-01-05 19:32:29.682254",
+  "name": "\u4e0a\u6d77\u73b0\u8d27",
+  "remark": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Metal Market",
+  "market": "\u5e7f\u4e1c\u5357\u50a8\u534e\u5357\u62a5\u4ef7",
+  "market_name": "\uad11\ub3d9\ub0a8\uc800\ud654\ub0a8\uacac\uc801\uac00",
+  "modified": "2023-01-05 19:37:22.451474",
+  "name": "\u5e7f\u4e1c\u5357\u50a8\u534e\u5357\u62a5\u4ef7",
+  "remark": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Metal Market",
+  "market": "\u4e0a\u6d77\u534e\u901a\uff08\u4e0a\u5348\uff09",
+  "market_name": "\uc0c1\ud558\uc774 \ud654\ud1b5(\uc624\uc804)",
+  "modified": "2023-01-05 19:33:56.294996",
+  "name": "\u4e0a\u6d77\u534e\u901a\uff08\u4e0a\u5348\uff09",
+  "remark": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Metal Market",
+  "market": "\u4e0a\u6d77\u671f\u8d27",
+  "market_name": "\uc0c1\ud558\uc774 \uc120\ubb3c",
+  "modified": "2023-01-05 19:34:17.206403",
+  "name": "\u4e0a\u6d77\u671f\u8d27",
+  "remark": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Metal Market",
+  "market": "LME\u573a\u5185\u62a5\u4ef7",
+  "market_name": "LME \ubc14\ub2e5 \uacac\uc801",
+  "modified": "2023-01-05 19:34:46.342217",
+  "name": "LME\u573a\u5185\u62a5\u4ef7",
+  "remark": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Metal Market",
+  "market": "LME\u7535\u5b50\u76d8\u62a5\u4ef7",
+  "market_name": "LME \uc804\uc790 \uacac\uc801",
+  "modified": "2023-01-05 19:35:18.393701",
+  "name": "LME\u7535\u5b50\u76d8\u62a5\u4ef7",
+  "remark": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Metal Market",
+  "market": "LME\u5b98\u65b9\u62a5\u4ef7",
+  "market_name": "LME\uacf5\uc2dd\uacac\uc801",
+  "modified": "2023-01-05 19:35:36.026185",
+  "name": "LME\u5b98\u65b9\u62a5\u4ef7",
+  "remark": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Metal Market",
+  "market": "\u4e2d\u94dd\u62a5\u4ef7",
+  "market_name": "\uc911\uc54c\ubbf8\ub284\uacac\uc801",
+  "modified": "2023-01-05 19:36:58.619852",
+  "name": "\u4e2d\u94dd\u62a5\u4ef7",
+  "remark": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Metal Market",
+  "market": "COMEX\u62a5\u4ef7",
+  "market_name": "COMEX\uc81c\uacf5",
+  "modified": "2023-01-05 20:29:17.251622",
+  "name": "COMEX\u62a5\u4ef7",
+  "remark": null
+ }
+]
