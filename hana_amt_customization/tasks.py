@@ -21,6 +21,7 @@ def monthly():
 
 def cron():
     get_metal_price()
+    get_metal_cn_price()
 
 # bench execute hana_amt_customization.tasks.get_metal_price
 @frappe.whitelist()
