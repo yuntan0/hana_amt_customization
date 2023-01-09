@@ -130,7 +130,7 @@ scheduler_events = {
 		"hana_amt_customization.tasks.monthly"
 	],
     "cron": {
-		"50 12 * * *": [
+		"00 14 * * *": [
 			"hana_amt_customization.tasks.cron"
 		]
 	}
