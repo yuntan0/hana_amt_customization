@@ -19,7 +19,7 @@ def weekly():
 def monthly():
 	pass
 
-def cron():
+def cron_metal():
     get_metal_price()
     get_metal_cn_price()
 

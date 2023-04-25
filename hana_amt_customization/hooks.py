@@ -114,24 +114,24 @@ app_license = "MIT"
 # ---------------
 
 scheduler_events = {
-	"all": [
-		"hana_amt_customization.tasks.all"
-	],
+	# "all": [
+	# 	"hana_amt_customization.tasks.all"
+	# ],
 	"daily": [
 		"hana_amt_customization.tasks.daily"
 	],
 	"hourly": [
 		"hana_amt_customization.tasks.hourly"
 	],
-	"weekly": [
-		"hana_amt_customization.tasks.weekly"
-	],
-	"monthly": [
-		"hana_amt_customization.tasks.monthly"
-	],
-    "cron": {
+	# "weekly": [
+	# 	"hana_amt_customization.tasks.weekly"
+	# ],
+	# "monthly": [
+	# 	"hana_amt_customization.tasks.monthly"
+	# ],
+    "cron_metal": {
 		"00 14 * * *": [
-			"hana_amt_customization.tasks.cron"
+			"hana_amt_customization.tasks.cron_metal"
 		]
 	}
 }
@@ -229,6 +229,13 @@ fixtures=[
         [
             "name", "in", [
                 "일반품의서"
+            ]
+        ]
+    ]},
+	{"dt": "Client Script", "filters": [
+        [
+            "module", "in", [
+                "Hana Amt Customization"
             ]
         ]
     ]}
