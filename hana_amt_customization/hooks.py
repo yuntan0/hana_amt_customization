@@ -94,9 +94,9 @@ app_license = "MIT"
 # ---------------
 # Override standard doctype classes
 
-# override_doctype_class = {
-#	"ToDo": "custom_app.overrides.CustomToDo"
-# }
+override_doctype_class = {
+	"Leave Application": "hana_amt_customization.overrides.leave_application.HAMTLeaveApplication"
+}
 
 # Document Events
 # ---------------
@@ -233,6 +233,13 @@ fixtures=[
         ]
     ]},
 	{"dt": "Client Script", "filters": [
+        [
+            "module", "in", [
+                "Hana Amt Customization"
+            ]
+        ]
+    ]},
+	{"dt": "Server Script", "filters": [
         [
             "module", "in", [
                 "Hana Amt Customization"

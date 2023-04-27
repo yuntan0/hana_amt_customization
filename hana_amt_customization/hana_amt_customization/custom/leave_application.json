@@ -104,7 +104,7 @@
    "name": "Leave Application-hours",
    "no_copy": 0,
    "non_negative": 0,
-   "options": "1\n2\n3\n4\n5\n6\n7",
+   "options": "1\n2\n3\n4\n5\n6\n7\n8",
    "owner": "Administrator",
    "permlevel": 0,
    "precision": "",

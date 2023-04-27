@@ -1,0 +1,17 @@
+[
+ {
+  "allow_guest": 0,
+  "api_method": null,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Server Script",
+  "doctype_event": "Before Validate",
+  "event_frequency": "All",
+  "modified": "2023-04-26 23:32:35.669989",
+  "module": "Hana Amt Customization",
+  "name": "Leave Application Check",
+  "reference_doctype": "Leave Application",
+  "script": "if doc.leave_type =='\uac1c\uc778\uc5f0\ucc28\uc2dc\uac04':\n    leave_balance = frappe.db.sql(\"\"\"\n    \t\t\tselect ifnull(max(b.total_leaves_allocated)-sum(a.hours),100) as leave_bal  from `tabLeave Application` a, `tabLeave Allocation` b\n                where a.leave_type  = b.leave_type \n                and a.employee  = b.employee \n                and b.from_date <= a.from_date \n                and b.to_date >= a.to_date \n                and a.docstatus =1\n                and a.from_date like  CONCAT(LEFT( %(from_date)s ,4),'%%')\n                and b.from_date like  CONCAT(LEFT( %(from_date)s ,4),'%%')\n                and a.employee = %(employee)s\n                and a.leave_type =  %(leave_type)s\n    \t\t\t\"\"\",\n    \t\t\t{   \"from_date\": doc.from_date,\n    \t\t\t\t\"employee\": doc.employee,\n    \t\t\t\t\"leave_type\": doc.leave_type\n    \t\t\t},\n    \t\t\tas_dict=1,\n    \t\t)\n    if int(leave_balance[0].leave_bal) < 100 and int(leave_balance[0].leave_bal)-int(doc.hours) <0:\n        frappe.msgprint(\"\uac1c\uc778\uc5f0\ucc28\uc2dc\uac04\uc774 \ucd08\uacfc \ub418\uc5b4 \uc2e0\uccad\uc774 \ubd88\uac00\ub2a5\ud569\ub2c8\ub2e4. \uc794\uc5ec\uc2dc\uac04:\"+str(leave_balance[0].leave_bal))\n        raise frappe.ValidationError",
+  "script_type": "DocType Event"
+ }
+]
