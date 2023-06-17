@@ -223,7 +223,7 @@ scheduler_events = {
 fixtures=[
     "Job Title", "Designation",
     "Module Profile",
-    "Approval Type","Workflow","Workflow State",
+    "Approval Type","Workflow State",
     "Workflow Action Master","Translation","Identification Document Type","Expense Claim Type","Metal Code","Metal Market",
      {"dt": "Print Format", "filters": [
         [
