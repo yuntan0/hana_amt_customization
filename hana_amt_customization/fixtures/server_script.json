@@ -2,6 +2,7 @@
  {
   "allow_guest": 0,
   "api_method": null,
+  "cron_format": null,
   "disabled": 0,
   "docstatus": 0,
   "doctype": "Server Script",

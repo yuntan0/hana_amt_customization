@@ -4,78 +4,6 @@
    {
     "company": "\ud558\ub098\uc5d0\uc774\uc5e0\ud2f0\u321c",
     "default_account": "5215 - Telephone Expenses - HA",
-    "parent": "Calls",
-    "parentfield": "accounts",
-    "parenttype": "Expense Claim Type"
-   }
-  ],
-  "deferred_expense_account": 0,
-  "description": null,
-  "docstatus": 0,
-  "doctype": "Expense Claim Type",
-  "expense_type": "Calls",
-  "modified": "2022-10-20 15:14:28.902551",
-  "name": "Calls"
- },
- {
-  "accounts": [
-   {
-    "company": "\ud558\ub098\uc5d0\uc774\uc5e0\ud2f0\u321c",
-    "default_account": "5201 - Administrative Expenses - HA",
-    "parent": "Food",
-    "parentfield": "accounts",
-    "parenttype": "Expense Claim Type"
-   }
-  ],
-  "deferred_expense_account": 0,
-  "description": null,
-  "docstatus": 0,
-  "doctype": "Expense Claim Type",
-  "expense_type": "Food",
-  "modified": "2022-09-24 17:02:26.265156",
-  "name": "Food"
- },
- {
-  "accounts": [
-   {
-    "company": "\ud558\ub098\uc5d0\uc774\uc5e0\ud2f0\u321c",
-    "default_account": "5201 - Administrative Expenses - HA",
-    "parent": "Others",
-    "parentfield": "accounts",
-    "parenttype": "Expense Claim Type"
-   }
-  ],
-  "deferred_expense_account": 0,
-  "description": null,
-  "docstatus": 0,
-  "doctype": "Expense Claim Type",
-  "expense_type": "Others",
-  "modified": "2022-09-24 17:03:56.577114",
-  "name": "Others"
- },
- {
-  "accounts": [
-   {
-    "company": "\ud558\ub098\uc5d0\uc774\uc5e0\ud2f0\u321c",
-    "default_account": "5216 - Travel Expenses - HA",
-    "parent": "Travel",
-    "parentfield": "accounts",
-    "parenttype": "Expense Claim Type"
-   }
-  ],
-  "deferred_expense_account": 0,
-  "description": null,
-  "docstatus": 0,
-  "doctype": "Expense Claim Type",
-  "expense_type": "Travel",
-  "modified": "2022-09-24 17:02:57.795260",
-  "name": "Travel"
- },
- {
-  "accounts": [
-   {
-    "company": "\ud558\ub098\uc5d0\uc774\uc5e0\ud2f0\u321c",
-    "default_account": "5215 - Telephone Expenses - HA",
     "parent": "\ud734\ub300\ud3f0\uc9c0\uc6d0",
     "parentfield": "accounts",
     "parenttype": "Expense Claim Type"
@@ -86,7 +14,7 @@
   "docstatus": 0,
   "doctype": "Expense Claim Type",
   "expense_type": "\ud734\ub300\ud3f0\uc9c0\uc6d0",
-  "modified": "2022-09-24 17:03:45.302260",
+  "modified": "2023-06-15 20:49:14.461245",
   "name": "\ud734\ub300\ud3f0\uc9c0\uc6d0"
  },
  {
@@ -104,26 +32,8 @@
   "docstatus": 0,
   "doctype": "Expense Claim Type",
   "expense_type": "\uc2dd\ub300",
-  "modified": "2022-09-24 17:02:26.265156",
+  "modified": "2023-06-15 20:48:25.617229",
   "name": "\uc2dd\ub300"
- },
- {
-  "accounts": [
-   {
-    "company": "\ud558\ub098\uc5d0\uc774\uc5e0\ud2f0\u321c",
-    "default_account": "5201 - Administrative Expenses - HA",
-    "parent": "Medical",
-    "parentfield": "accounts",
-    "parenttype": "Expense Claim Type"
-   }
-  ],
-  "deferred_expense_account": 0,
-  "description": null,
-  "docstatus": 0,
-  "doctype": "Expense Claim Type",
-  "expense_type": "Medical",
-  "modified": "2022-09-29 19:48:28.620996",
-  "name": "Medical"
  },
  {
   "accounts": [
@@ -140,7 +50,7 @@
   "docstatus": 0,
   "doctype": "Expense Claim Type",
   "expense_type": "\uae30\ud0c0\uacbd\ube44",
-  "modified": "2022-09-24 17:03:56.577114",
+  "modified": "2023-06-15 20:48:55.770688",
   "name": "\uae30\ud0c0\uacbd\ube44"
  },
  {
@@ -158,7 +68,7 @@
   "docstatus": 0,
   "doctype": "Expense Claim Type",
   "expense_type": "\uc5ec\ud589\uacbd\ube44",
-  "modified": "2022-09-24 17:02:57.795260",
+  "modified": "2023-06-15 20:48:41.130925",
   "name": "\uc5ec\ud589\uacbd\ube44"
  }
 ]
