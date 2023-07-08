@@ -224,7 +224,7 @@ fixtures=[
     "Job Title", "Designation",
     "Module Profile",
     "Approval Type","Workflow State",
-    "Workflow Action Master","Translation","Identification Document Type","Expense Claim Type","Metal Code","Metal Market",
+    "Workflow Action Master","Translation","Identification Document Type","Metal Code","Metal Market",
      {"dt": "Print Format", "filters": [
         [
             "name", "in", [
