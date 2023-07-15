@@ -3989,5 +3989,83 @@
   "name": "6f71f2dc6d",
   "source_text": "Reject",
   "translated_text": "\ubc18\ub824"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ko",
+  "modified": "2023-07-15 22:00:58.106353",
+  "name": "fce50f8337",
+  "source_text": "Share Grade",
+  "translated_text": "\uacf5\uc720\ub4f1\uae09"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ko",
+  "modified": "2023-07-15 22:01:15.795360",
+  "name": "7de1efe4c7",
+  "source_text": "Draft Employee",
+  "translated_text": "\uae30\uc548\uc790"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ko",
+  "modified": "2023-07-15 22:01:27.032841",
+  "name": "3bde0a8795",
+  "source_text": "Draft Dept",
+  "translated_text": "\uae30\uc548\ubd80\uc11c"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ko",
+  "modified": "2023-07-15 22:01:47.789165",
+  "name": "60dcbbaf91",
+  "source_text": "Approval Type",
+  "translated_text": "\ud488\uc758 \uc885\ub958"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ko",
+  "modified": "2023-07-15 22:02:07.042603",
+  "name": "4ed0853200",
+  "source_text": "Approval Line",
+  "translated_text": "\uacb0\uc7ac\uc120"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ko",
+  "modified": "2023-07-15 22:02:22.069338",
+  "name": "218bfb3a23",
+  "source_text": "Contents",
+  "translated_text": "\ub0b4\uc6a9"
  }
 ]
