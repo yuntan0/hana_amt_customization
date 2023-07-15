@@ -221,17 +221,9 @@ scheduler_events = {
 #	"hana_amt_customization.auth.validate"
 # ]
 fixtures=[
-    "Job Title", "Designation",
+    "Job Title",
     "Module Profile",
-    "Approval Type","Workflow State",
-    "Workflow Action Master","Translation","Identification Document Type","Metal Code","Metal Market",
-     {"dt": "Print Format", "filters": [
-        [
-            "name", "in", [
-                "일반품의서"
-            ]
-        ]
-    ]},
+    "Translation","Identification Document Type","Metal Code","Metal Market",
 	{"dt": "Client Script", "filters": [
         [
             "module", "in", [
