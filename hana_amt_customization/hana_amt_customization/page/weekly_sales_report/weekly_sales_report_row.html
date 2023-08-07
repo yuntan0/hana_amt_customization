@@ -1,0 +1,26 @@
+<div class="row activity-row">
+	<div class="col-xs-1 text-right activity-date"><span class="{%= date_class %}" id={{ name }}>
+		<a href={%="opportunity/"+ name %}>{%= customer_name || "" %}</a>>{{ status }}</span></div>
+	<div class="col-xs-10 activity-message" title="{{ status }}">
+		<div class="row">
+			<div class="col-xs-1">
+				가능성:{{ probability }}
+			</div>
+			<div class="col-xs-1">
+				{{ category }}
+			</div>
+            <div class="col-xs-4">
+				{{ note }}
+			</div>
+            <div class="col-xs-4">
+				{{ event }}
+			</div>
+            <div class="col-xs-2">
+				{{ task }}
+			</div>
+			
+			
+		</div>
+		
+	</div>
+</div>
