@@ -29,9 +29,9 @@ class VehicleRentalManagement(Document):
 		if self.from_date and self.to_date:
 			self.validate_from_to_dates("from_date", "to_date")
 
-		if frappe.db.exists(self.doctype ,[['from_date', 'between', [self.from_date, self.to_date] ],['vehicle','=',self.vehicle],['status','=','Booked']]):
+		if frappe.db.exists(self.doctype ,[['from_date', 'between', [self.from_date, self.to_date] ],['vehicle','=',self.vehicle],['status','=','Booked'],['name','!=',self.name]]):
 			frappe.throw(_("{0} is already booked from {1} to {2}").format(self.vehicle, self.from_date ,self.to_date))
-		if frappe.db.exists(self.doctype ,[['to_date', 'between', [self.from_date, self.to_date] ],['vehicle','=',self.vehicle],['status','=','Booked']]):
+		if frappe.db.exists(self.doctype ,[['to_date', 'between', [self.from_date, self.to_date] ],['vehicle','=',self.vehicle],['status','=','Booked'],['name','!=',self.name]]):
 			frappe.throw(_("{0} is already booked from {1} to {2}").format(self.vehicle, self.from_date ,self.to_date))
 
 
