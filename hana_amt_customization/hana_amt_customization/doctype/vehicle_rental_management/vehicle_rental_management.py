@@ -38,7 +38,18 @@ class VehicleRentalManagement(Document):
 	def before_insert(self):
 		self.title = "["+self.vehicle+":"+self.model+"]"+self.employee_name
 
-		
+	def on_update(self):
+		pass
+
+@frappe.whitelist()
+def cancel_car(docname):
+	frappe.db.set_value('Vehicle Rental Management',docname,'status','Cancelled')
+	return True
+
+@frappe.whitelist()
+def return_car(docname):
+	frappe.db.set_value('Vehicle Rental Management',docname,'status','Returned')
+	return True
 
 @frappe.whitelist()
 def get_events(start, end, filters=None):
