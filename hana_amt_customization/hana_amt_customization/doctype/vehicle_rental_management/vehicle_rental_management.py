@@ -70,6 +70,7 @@ def get_events(start, end, filters=None):
 				status
 		FROM `tabVehicle Rental Management`
 		WHERE 1=1
+		AND status ='Booked'
 		ORDER BY from_date""".format(
 			
 		),
