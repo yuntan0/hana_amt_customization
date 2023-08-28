@@ -6,10 +6,10 @@ def get_data(start=0,status='Open'):
 	
 	data = frappe.get_all(
 		"Opportunity",
-		fields=("name","customer_name", "opportunity_owner", "probability", "status",'category','annual_revenue'),
+		fields=("name","customer_name", "opportunity_owner","total", "status",'category','annual_revenue'),
 		# fields=("content", "text_content", "sender", "creation"),
 		filters=dict(status=status),
-		order_by="creation desc",
+		order_by="category ,opportunity_owner ,creation desc",
 		limit=40,
 		start=start,
 	)
@@ -40,6 +40,12 @@ def get_data(start=0,status='Open'):
 	and ttd.reference_name =  %s
 	order by ttd.modified desc limit 1
 		""",d.name ,as_dict=0)
+		d.user = frappe.db.sql(
+		"""
+	select full_name  from tabUser tu 
+		where 1=1
+		and tu.name = %s
+		""",d.opportunity_owner ,as_dict=0)
 		
 
 	# data = frappe.get_all(
