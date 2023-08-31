@@ -8,8 +8,8 @@ def get_data(start=0,status='Open'):
 		"Opportunity",
 		fields=("name","customer_name", "opportunity_owner","total", "status",'category','annual_revenue'),
 		# fields=("content", "text_content", "sender", "creation"),
-		filters=dict(status=status),
-		order_by="category ,opportunity_owner ,creation desc",
+		filters={'status':['not in', '(Closed,Lost,Converted)']},
+		order_by="category ,opportunity_owner ,modified desc",
 		limit=40,
 		start=start,
 	)
