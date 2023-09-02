@@ -8,7 +8,7 @@ def get_data(start=0,status='Open'):
 		"Opportunity",
 		fields=("name","customer_name", "opportunity_owner","total", "status",'category','annual_revenue'),
 		# fields=("content", "text_content", "sender", "creation"),
-		filters={'status':['not in', '(Closed,Lost,Converted)']},
+		filters={'status':['not in', ['Closed','Lost','Converted']]},
 		order_by="category ,opportunity_owner ,modified desc",
 		limit=40,
 		start=start,
@@ -16,10 +16,10 @@ def get_data(start=0,status='Open'):
 	for d in data:
 		d.note = frappe.db.sql(
 		"""
-	select CONCAT('수정일시 :',tcn.modified,'<br> 노트 내용 :' ,tcn.note ) from `tabCRM Note` tcn 
+	select CONCAT('생성일시 :',tcn.creation,'<br> 노트 내용 :' ,tcn.note ) from `tabCRM Note` tcn 
 		where parenttype in ('Opportunity' )
 		and tcn.parent = %s
-		order by tcn.modified desc 
+		order by tcn.creation desc 
 		limit 1
 		""",d.name ,as_dict=0)
 
