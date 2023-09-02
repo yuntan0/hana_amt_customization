@@ -16,7 +16,7 @@ def get_data(start=0,status='Open'):
 	for d in data:
 		d.note = frappe.db.sql(
 		"""
-	select CONCAT('생성일시 :',tcn.creation,'<br> 노트 내용 :' ,tcn.note ) from `tabCRM Note` tcn 
+	select CONCAT('생성일시 :',tcn.added_on,'<br> 노트 내용 :' ,tcn.note ) from `tabCRM Note` tcn 
 		where parenttype in ('Opportunity' )
 		and tcn.parent = %s
 		order by tcn.added_on desc 
