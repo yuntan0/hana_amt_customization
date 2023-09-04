@@ -23,6 +23,21 @@ def get_data(start=0,status='Open'):
 		limit 1
 		""",d.name ,as_dict=0)
 
+		d.pre_note 
+		
+		note_list = frappe.db.sql(
+		"""
+	select CONCAT('생성일시 :',tcn.added_on,'<br> 노트 내용 :' ,tcn.note ) from `tabCRM Note` tcn 
+		where parenttype in ('Opportunity' )
+		and tcn.parent = %s
+		order by tcn.added_on desc 
+		limit 2
+		""",d.name ,as_dict=0)
+		if len(note_list)>1:
+			d.pre_note = note_list[1]
+		else:
+			d.pre_note = ""
+
 		d.event = frappe.db.sql(
 		"""
 	select CONCAT('이벤트명 : ',te.subject,'<br>시작일시 :',te.starts_on,'<br> 이벤트 종류:',te.event_category,'<br>내용 : ',te.description)  as content
