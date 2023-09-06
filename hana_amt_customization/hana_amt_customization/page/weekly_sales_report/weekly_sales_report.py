@@ -6,10 +6,10 @@ def get_data(start=0,status='Open'):
 	
 	data = frappe.get_all(
 		"Opportunity",
-		fields=("name","customer_name", "opportunity_owner","total", "status",'category','annual_revenue'),
+		fields=("name","customer_name", "opportunity_owner","total", "status",'custom_item_group','annual_revenue'),
 		# fields=("content", "text_content", "sender", "creation"),
 		filters={'status':['not in', ['Closed','Lost','Converted']]},
-		order_by="category ,opportunity_owner ,modified desc",
+		order_by="custom_item_group ,opportunity_owner ,modified desc",
 		limit=40,
 		start=start,
 	)

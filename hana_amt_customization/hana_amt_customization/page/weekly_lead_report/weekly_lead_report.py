@@ -6,7 +6,7 @@ def get_data(start=0,status='Open'):
 	
 	data = frappe.get_all(
 		"Lead",
-		fields=("name","company_name", "lead_owner",  "status",'category','annual_revenue'),
+		fields=("name","company_name", "lead_owner",  "status",'custom_item_group','annual_revenue'),
 		# fields=("content", "text_content", "sender", "creation"),
 		filters=dict(status=status),
 		order_by="creation desc",
