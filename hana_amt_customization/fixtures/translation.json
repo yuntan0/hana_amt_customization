@@ -1,6 +1,58 @@
 [
  {
   "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ko",
+  "modified": "2023-08-07 20:48:24.876262",
+  "name": "fa24834b7e",
+  "source_text": "Agree",
+  "translated_text": "\ub3d9\uc758"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ko",
+  "modified": "2023-08-07 20:48:52.626194",
+  "name": "a7783014e5",
+  "source_text": "Inform",
+  "translated_text": "\ud655\uc778"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ko",
+  "modified": "2023-08-07 22:24:26.320949",
+  "name": "38df77623a",
+  "source_text": "Vehicle Rental Management",
+  "translated_text": "\ucc28\ub7c9\ub300\uc5ec\uad00\ub9ac"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "ko",
+  "modified": "2023-08-24 18:42:06.104420",
+  "name": "ace73875f1",
+  "source_text": "Booking Meeting Room",
+  "translated_text": "\ud68c\uc758\uc2e4\uc608\uc57d"
+ },
+ {
+  "context": null,
   "contributed": 1,
   "contribution_docname": "400350f6c9",
   "contribution_status": "Pending",
