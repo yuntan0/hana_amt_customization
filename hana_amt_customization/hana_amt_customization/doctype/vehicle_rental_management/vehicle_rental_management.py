@@ -37,23 +37,37 @@ class VehicleRentalManagement(Document):
 			and from_date like '{from_date}%%' """.format(from_date = str(self.from_date)[0:10]),(self.vehicle,self.name))
 			if len(result)>0:
 				frappe.throw(_("{0} is already booked  {1} ").format(self.vehicle, str(self.from_date)[0:10]))
-		result = frappe.db.sql(""" 
-			select vehicle, name,from_date,to_date ,owner ,employee_name
-			FROM frappedb.`tabVehicle Rental Management` where 1=1
-			and status  = 'Booked'
-			and vehicle = %s
-			and name != %s
-			and  ('{from_date}' between from_date and to_date 
-					or '{to_date}' between from_date and to_date  )
+		else: 
+			result = frappe.db.sql(""" 
+				select vehicle, name,from_date,to_date ,owner ,employee_name
+				FROM frappedb.`tabVehicle Rental Management` where 1=1
+				and status  = 'Booked'
+				and vehicle = %s
+				and name != %s
+				and  ('{from_date}' between from_date and to_date 
+						or '{to_date}' between from_date and to_date  ))
+				
+				""".format(from_date = str(self.from_date),to_date= str(self.to_date)),(self.vehicle,self.name),as_dict=1)
+			if len(result)>0:
+				frappe.throw(_("{0} is already booked from {1} to {2} by  {3}").format(result[0].vehicle, result[0].from_date ,result[0].to_date,result[0].employee_name))
 			
-			 """.format(from_date = str(self.from_date),to_date= str(self.to_date)),(self.vehicle,self.name),as_dict=1)
-		if len(result)>0:
-			frappe.throw(_("{0} is already booked from {1} to {2} by  {3}").format(result[0].vehicle, result[0].from_date ,result[0].to_date,result[0].employee_name))
+			result2 = frappe.db.sql(""" 
+				select vehicle, name,from_date,to_date ,owner ,employee_name
+				FROM frappedb.`tabVehicle Rental Management` where 1=1
+				and status  = 'Booked'
+				and vehicle = %s
+				and name != %s
+				and  (from_date  between '{from_date}' and '{to_date}' 
+						or to_date between '{from_date}' and '{to_date}'   ))
+				
+				""".format(from_date = str(self.from_date),to_date= str(self.to_date)),(self.vehicle,self.name),as_dict=1)
+			if len(result2)>0:
+				frappe.throw(_("{0} is already booked from {1} to {2} by  {3}").format(result2[0].vehicle, result2[0].from_date ,result2[0].to_date,result2[0].employee_name))
 
-		if frappe.db.exists(self.doctype ,[['from_date', 'between', [str(self.from_date), str(self.to_date)] ],['vehicle','=',self.vehicle],['status','=','Booked'],['name','!=',self.name]]):
-			frappe.throw(_("{0} is already booked from {1} to {2}").format(self.vehicle, self.from_date ,self.to_date))
-		if frappe.db.exists(self.doctype ,[['to_date', 'between', [str(self.from_date), str(self.to_date)] ],['vehicle','=',self.vehicle],['status','=','Booked'],['name','!=',self.name]]):
-			frappe.throw(_("{0} is already booked from {1} to {2}").format(self.vehicle, self.from_date ,self.to_date))
+			# if frappe.db.exists(self.doctype ,[['from_date', 'between', [str(self.from_date), str(self.to_date)] ],['vehicle','=',self.vehicle],['status','=','Booked'],['name','!=',self.name]]):
+			# 	frappe.throw(_("{0} is already booked from {1} to {2}").format(self.vehicle, self.from_date ,self.to_date))
+			# if frappe.db.exists(self.doctype ,[['to_date', 'between', [str(self.from_date), str(self.to_date)] ],['vehicle','=',self.vehicle],['status','=','Booked'],['name','!=',self.name]]):
+			# 	frappe.throw(_("{0} is already booked from {1} to {2}").format(self.vehicle, self.from_date ,self.to_date))
 
 
 	def before_insert(self):
