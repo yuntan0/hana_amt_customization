@@ -43,8 +43,9 @@ class VehicleRentalManagement(Document):
 			and status  = 'Booked'
 			and vehicle = %s
 			and name != %s
-			and (from_date BETWEEN '{from_date}' and '{to_date}' 
-     			or to_date  BETWEEN '{from_date}' and '{to_date}')
+			and  ('{from_date}' between from_date and to_date 
+					or '{to_date}' between from_date and to_date  )
+			
 			 """.format(from_date = str(self.from_date),to_date= str(self.to_date)),(self.vehicle,self.name),as_dict=1)
 		if len(result)>0:
 			frappe.throw(_("{0} is already booked from {1} to {2} by  {3}").format(result[0].vehicle, result[0].from_date ,result[0].to_date,result[0].employee_name))
